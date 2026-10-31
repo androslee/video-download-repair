@@ -1,0 +1,9 @@
+include README.md LICENSE CHANGELOG.md CONTRIBUTING.md SECURITY.md THIRD_PARTY_NOTICES.md
+include DESIGN.md SOURCES.md TEST_PLAN.md requirements-tested.txt requirements-dev.txt
+graft docs
+graft scripts
+graft tests
+graft blender_addon
+prune .local
+prune .venv
+global-exclude __pycache__ *.py[cod] *.mp4 *.mkv *.mov *.avi *.webm *.m4v *.wav *.flac *.mp3 *.aac *.blend *.blend1

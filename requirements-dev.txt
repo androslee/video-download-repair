@@ -1,0 +1,4 @@
+-r requirements-tested.txt
+pytest==9.1.1
+# Optional headless Blender adapter tests; no desktop Blender installation required.
+bpy==4.5.3

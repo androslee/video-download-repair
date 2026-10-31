@@ -1,0 +1,13 @@
+schema_version = "1.0.0"
+id = "video_repair_lab"
+version = "0.1.1"
+name = "Video Repair Lab"
+tagline = "Reconstruct a timeline from overlapping local video fragments"
+maintainer = "Video Repair Lab contributors"
+type = "add-on"
+blender_version_min = "4.5.0"
+license = ["SPDX:GPL-3.0-or-later"]
+tags = ["Sequencer"]
+
+[permissions]
+files = "Read selected media and timeline reports; write local analysis reports"

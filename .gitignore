@@ -1,0 +1,28 @@
+# Local media, generated analysis and render outputs
+.local/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+*.egg-info/
+build/
+dist/
+*.blend1
+# Personal media, renders and editor projects belong in local storage, not source control.
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.m4v
+*.wav
+*.flac
+*.mp3
+*.aac
+*.blend
+
+# Explicitly reviewed demonstration media only.
+!examples/gamers-nexus-mixed-resolution/reconstructed.mp4
+!examples/gamers-nexus-mixed-resolution/inputs/*.mp4
